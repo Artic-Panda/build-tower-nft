@@ -1,0 +1,282 @@
+.nftfield{
+  position: absolute;
+  left: 405px;
+  top: 300px;
+  height: 65vh;
+  width: 75vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 10;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: white;
+}
+
+/* .nftfield::-webkit-scrollbar {
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  background: red;
+} */
+::-webkit-scrollbar {
+    width: 20px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0);
+    border: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0px;
+    /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3; */
+}
+
+.nft{
+  display:inline-block;
+  width: 252px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: blue;
+  background-color: blue;
+}
+.nftphoto{
+  width: 252px;
+  height: 260px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.LEVEL_NFT {
+  padding-top: 10px;
+  font-size: 16px;
+  width: 252px;
+  height: 30px;
+  font-family: "Press Start 2P";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+  -webkit-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+  -ms-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+}
+
+body{
+  overflow: hidden;
+}
+
+/* Button buy 1 level */
+.Group_1 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 405px;
+  top: 119px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+.BUY_TEXT {
+  margin-top: 18px;
+  font-size: 16px;
+  font-family: "Press Start 2P";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+  -webkit-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+  -ms-transform: matrix( 1.29685548121724,0,0,1.29685548121724,0,0);
+}
+
+button[disabled] div{
+   opacity: .5;
+   cursor: default;
+}
+/*-------------*/
+
+
+/*Button buy 2 level*/
+.Group_2 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 701px;
+  top: 119px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+
+/*----------------------*/
+
+/*Button buy 3 level*/
+.Group_3 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 999px;
+  top: 119px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+/*----------------*/
+
+
+/*Button buy 4 level*/
+.Group_4 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 405px;
+  top: 202px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+
+/*--------------------*/
+/*Button buy 5 level*/
+.Group_5 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 701px;
+  top: 202px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+
+/*--------------------*/
+/*Button buy 6 level*/
+.Group_6 {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1001px;
+  top: 202px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+/*----------------------*/
+
+/*Button burn*/
+.BURN {
+  background-image: url("Rounded Rectangle 1 copy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1373px;
+  top: 159px;
+  width: 252px;
+  height: 59px;
+  z-index: 10;
+  border: 0;
+  cursor: pointer;
+
+}
+
+.btn{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/*-----------------*/
+
+.BG {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7;
+}
+.clouds {
+  background-image: url("clouds.png");
+  opacity: 0.529;
+  position: absolute;
+  left: 24px;
+  top: 69px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+}
+.Layer_555_copy_5 {
+  background-image: url("Layer 555 copy 5.png");
+  position: absolute;
+  left: -1704px;
+  top: 661px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  background-repeat: no-repeat;
+}
+.Layer_555_copy_3 {
+  background-image: url("Layer 555 copy 3.png");
+  position: absolute;
+  left: 118px;
+  top: 704px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  background-repeat: no-repeat;
+}
+.Layer_555_copy_4 {
+  background-image: url("Layer 555 copy 4.png");
+  position: absolute;
+  left: 139px;
+  top: 639px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background-repeat: no-repeat;
+}
+.Layer_0 {
+  background-image: url("Layer 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+.Layer_561 {
+  background-image: url("Layer 561.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+/*------------------------------*/
